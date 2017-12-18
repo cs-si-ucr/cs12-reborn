@@ -1,0 +1,55 @@
+# Site settings
+title: CS12 Supplemental Instruction at UC Riverside
+email: jpham035@ucr.edu
+description: >
+    This website will be used as a lesson plan for
+    SI leaders and as lab material for students.
+baseurl: "/cs12-reborn"
+url: https://cs-si-ucr.github.io/cs12-reborn
+git_address: https://github.com/cs-si-ucr/cs12-reborn
+git_edit_address: https://github.com/cs-si-ucr/cs12-reborn
+
+# theme options from https://bootswatch.com/
+# comment out this to use default Bootstrap
+bootwatch: cosmo
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+gems:
+  - jekyll-feed
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - .idea/
+  - .gitignore
+  - README.md
+timezone: Europe/Berlin
+defaults:
+- scope:
+    path: _posts
+    type: posts
+  values:
+    layout: post
+    sectionid: blog
+
+- scope:
+    path: _docs
+    type: docs
+  values:
+    layout: docs
+    sectionid: docs
+    seo:
+      type: "WebPage"
+
+collections:
+  docs:
+    permalink: /:collection/:path/
+    output: true
+  posts:
+    permalink: /blog/:year/:month/:day/:title/
+    output: true
