@@ -22,6 +22,7 @@ SI will meet twice a week; a 1-hour discussion reviewing course material and a 2
 <div class="row">
 
   <!-- Start of SI Leader -->
+
   <div class="col-lg-4 col-sm-6">
     <div
       class="thumbnail"
@@ -113,6 +114,7 @@ SI will meet twice a week; a 1-hour discussion reviewing course material and a 2
       <div class="caption">
         <h3>John Pham</h3>
         <p>Section 13</p>
+        <p><a href="{{site.baseurl}}/docs/CS12W18_Syllabus.pdf">Syllabus</a></p>
         <ul>
           <li><strong>Discussion:</strong> Mondays, 3PM - 4PM, Chung 127</li>
           <li><strong>Lab:</strong>  Wednesdays, 3PM - 5PM, Chung 127</li>
