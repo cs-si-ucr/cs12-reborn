@@ -79,3 +79,47 @@ it is. This will make it easier to find portions of the code base that we want t
 When we split our code into different files, different parts of our code might need to use the same 
 functionality. To minimize the size of our code, we can use **header file guards** to prevent the same file
 from being imported more than once.
+
+View the examples below:
+```c++
+// main.cpp
+
+#include "Class.h"
+
+/* rest of file */
+```
+
+```c++
+// Class.h
+#ifndef __CLASS_H__
+#define __CLASS_H__
+
+/* Class declaration here */
+
+#endif
+```
+
+```c++
+// Class.cpp
+
+#include "Class.h"
+
+/* Class definitions here */
+```
+
+To compile a program that is split into multiple files
+
+```bash
+g++ main.pp Class.cpp
+```
+
+To compile individual classes into object files, and then link them together.
+
+```bash
+# compile Class into an object file:
+g++ -c Class.cpp
+# compile main into an object file:
+g++ -c main.cpp
+# link all object files together:
+g++ *.o
+```
