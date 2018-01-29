@@ -43,6 +43,37 @@ Rational Rational::operator+(Rational rhs) {
 
 With operator overloading, we can define mechanisms to support the classes we create.
 
+## Friend Keyword
+
+The friend keyword allows you to declare a non-member function with access to a classes private varaibles.
+
+For example:
+```c++
+class Rectangle {
+    int width, height;
+  public:
+    Rectangle() {}
+    Rectangle (int x, int y) : width(x), height(y) {}
+    int area() {return width * height;}
+    friend ostream& operator<<(ostream &out, const Rectangle& rhs);
+};
+```
+
+In the above class definition, we are overloading the `operator<<` function and declaring it as a friend.
+
+We declare `operator<<` as a friend and not member function because operators are members of their left-hand arguments class. 
+In this case we call the << operator with the line: `cout << "hello"`. 
+The << operator is member of the cout class.
+
+Since this function is not a member function of the Rectangle class, we do not include the `Rectangle::` when defining the function.
+
+The function is defined like such below:
+```c++
+ostream& opserator<< (ostream& out, const Rectangle& rhs){
+	//write code here
+}
+```
+
 ## Classes within classes
 
 Classes are simply new data types that we can create. Just as we have ints, strings, and such as data members
