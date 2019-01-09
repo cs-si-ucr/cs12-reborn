@@ -1,23 +1,29 @@
-- title: Week 1 
+- title: Introduction
   docs:
   - home
-  - discussion1
-  - lab1
 
-- title: Week 2
+- title: Weeks
   docs:
-  - discussion2
-  - lab2
+  - week1
+  - week2
+  - week3
+  - week4
+  - week5
+  - week6
+  - week7
+  - week8
 
-- title: Week 3
+- title: zyBooks
   docs:
-  - discussion3
-  - lab3
+  - program1
+  - program2
 
-- title: Week 4
+- title: Exams
   docs:
-  - discussion4
+  - midterm
+  - final_review
+  - review_session
 
-- title: Week 5
+- title: Dev
   docs:
-  - discussion5
+  - github
