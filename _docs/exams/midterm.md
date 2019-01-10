@@ -6,6 +6,12 @@ permalink: /docs/midterm/
 ###### Written by Josh Beto
 
 
+**Problem 0:**
+* Part 1: Write a function to calculate the digital root of a number. The definition of a digital root can be found here: https://en.wikipedia.org/wiki/Digital_root
+* Part 2: Implement the following function: ```highestRoot(const vector<int> &v)```. This function returns the number within *v* with the highest digital root. Assume *v* is nonempty.
+* Part 3: Write a main that generates 10 random integers from range 10-999 and prints the integer with the highest digital root among them.
+
+
 **Problem 1:**
 
 Define a class called `Parser` that represents a parsed sentence. Each word in the sentence is **whitespace character separated** like `'\n'` and `' '`
