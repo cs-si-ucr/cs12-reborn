@@ -1,6 +1,6 @@
 ---
 title: Week 8 Discussion
-permalink: /docs/dis8/
+permalink: /docs/week8/
 ---
 
 ###### Written by Josh Beto

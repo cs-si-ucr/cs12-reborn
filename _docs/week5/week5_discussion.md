@@ -1,6 +1,6 @@
 ---
 title: Week 5 Discussion
-permalink: /docs/lab5/
+permalink: /docs/discussion5/
 ---
 
 ###### Written by John Pham

@@ -1,6 +1,6 @@
 ---
 title: Week 5 Discussion
-permalink: /docs/dis5/
+permalink: /docs/week5/
 ---
 
 ###### Written by Josh Beto

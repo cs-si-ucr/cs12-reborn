@@ -1,6 +1,6 @@
 ---
 title: Lab
-permalink: /docs/lab2/
+permalink: /docs/week2_lab/
 ---
 
 ###### Written by John Pham

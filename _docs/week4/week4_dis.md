@@ -1,6 +1,6 @@
 ---
 title: Week 4 Discussion
-permalink: /docs/dis4/
+permalink: /docs/week4/
 ---
 
 ###### Written by Josh Beto

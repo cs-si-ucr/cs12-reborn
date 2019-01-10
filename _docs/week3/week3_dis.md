@@ -1,6 +1,6 @@
 ---
 title: Week 3 Discussion
-permalink: /docs/dis3/
+permalink: /docs/week3/
 ---
 
 ###### Written by John Pham
