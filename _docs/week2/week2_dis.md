@@ -118,9 +118,3 @@ ostream& operator<< (double val);
   * *Hint*: Look back on what ```<<``` and ```>>``` return and the ```cin``` and ```cout``` types
 
 ---
-
-### Problem Solving Tips
-* If you get stuck on a part, skip to the parts you know and *abstract* the parts you do not know. *Abstract* means to understand what something does, but not think about how it is done. 
-* Example: You have a function ```bool isAcceptable(int x)```
-* You need to remove elements within a ```vector<int> v``` that are considered not acceptable. 
-  * You can simply call ```isAcceptable(int x)``` to check for which elements to remove even if you do not know how to write ```bool isAcceptable(int x)```
