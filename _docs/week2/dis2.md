@@ -1,6 +1,6 @@
 ---
 title: Discussion
-permalink: /docs/week2_dis/
+permalink: /docs/dis2/
 ---
 
 ###### Written by John Pham

@@ -1,6 +1,6 @@
 ---
 title: Lab
-permalink: /docs/week1_lab/
+permalink: /docs/lab1/
 ---
 
 ###### Written by Josh Beto
