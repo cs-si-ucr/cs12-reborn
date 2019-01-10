@@ -1,151 +1,29 @@
 ---
-title: Welcome to CS12 Supplemental Instruction!
+title: Welcome!
 permalink: /docs/home/
 redirect_from: /docs/index.html
 ---
 
-## Getting started
+CS12 Fall 2018: SI Syllabus
+================================
 
-Supplemental instruction (SI) is a service provided to you as a CS12 student for free! SI is meant to aide students by providing them with additional resources in historically difficult classes. The SI sessions are taught by undergraduate students who aced the course. If you are in a learning community, **attendance is mandatory**. SI sessions are however open to all students enrolled in the course.
+What is SI?
+-----------
+Supplemental Instruction is a series of weekly review sessions for students taking historically difficult courses. It offers students the chance to collaborate, ask questions, and study the course material.
+What isn’t SI?
+Supplemental Instruction is not a lecture. SI Leaders are not there to teach you new material, but lead you in reviewing the material covered in lecture and help guide you in understanding the subject. Please do not forget that SI is supplemental, meaning that it is not a replacement for going to lecture and lab.
+Who should go?
+Anyone who has the time to spare. SI offers you the opportunity to gain a better understanding of the course material and help guide you to avoid common pitfalls in the course.
 
-## Structure of SI
+If you are having trouble in the class or think you might run into trouble, you should definitely attend. CS 12 has a high dropout and failure rate. If you are running into trouble, let us help you. Do not be intimidated if you are trying to start coming later in the quarter (though try not to wait that long). We will help bring you up to speed.
 
-SI will meet twice a week; a 1-hour discussion reviewing course material and a 2-hour lab where you will apply the course material. The SI leader will be the same for both sessions.
+Grades/Participation:
+-----------
+SI sessions are not a graded course, however participation is required for attending any SI sessions. 
 
-## Guidelines
-
-* Be respectful and participate!
-* Sign in at the start of each section
-
-## SI Leaders
-
-<div class="row">
-
-  <!-- Start of SI Leader -->
-
-  <div class="col-lg-4 col-sm-6">
-    <div
-      class="thumbnail"
-      style="border: none !important;">
-      <div class="image">
-        <a href="https://www.linkedin.com/in/peraza97/">
-          <img 
-            src="{{site.baseurl}}/img/omarperaza.jpg"
-            class="img-responsive" 
-            alt="Omar Peraza"
-            style="width: 100% !important;">
-        </a>
-      </div>
-      <div class="caption">
-        <h3>Omar Peraza</h3>
-        <p>Section 10</p>
-        <ul>
-          <li><strong>Discussion:</strong> Mondays, 1PM - 2PM, Chung 127</li>
-          <li><strong>Lab:</strong>  Wednesdays, 12AM - 2PM, Chung 127</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-  <!-- End of SI Leader -->
-  <!-- Start of SI Leader -->
-  <div class="col-lg-4 col-sm-6">
-    <div
-      class="thumbnail"
-      style="border: none !important;">
-      <div class="image">
-        <a href="https://www.linkedin.com/in/guthrie-price/">
-          <img 
-            src="{{site.baseurl}}/img/guthrieprice.jpg"
-            class="img-responsive" 
-            alt="John Pham"
-            style="width: 100% !important;">
-        </a>
-      </div>
-      <div class="caption">
-        <h3>Guthrie Price</h3>
-        <p>Section 11</p>
-        <ul>
-          <li><strong>Discussion:</strong> Mondays, 11AM - 12PM, Chung 127</li>
-          <li><strong>Lab:</strong>  Wednesdays, 10AM - 12PM, Chung 127</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-  <!-- End of SI Leader -->
-  <!-- Start of SI Leader -->
-  <div class="col-lg-4 col-sm-6">
-    <div
-      class="thumbnail"
-      style="border: none !important;">
-      <div class="image">
-        <a href="https://www.linkedin.com/in/andre-castro-566532113/">
-          <img 
-            src="{{site.baseurl}}/img/andrecastro.jpg"
-            class="img-responsive" 
-            alt="Andre Castro"
-            style="width: 100% !important;">
-        </a>
-      </div>
-      <div class="caption">
-        <h3>Andre Castro</h3>
-        <p>Section 12</p>
-        <ul>
-          <li><strong>Discussion:</strong> Mondays, 12PM - 1PM, Chung 127</li>
-          <li><strong>Lab:</strong> Tuesdays, 12PM - 2PM, Chung 127</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-  <!-- End of SI Leader -->
-  <!-- Start of SI Leader -->
-  <div class="col-lg-4 col-sm-6">
-    <div
-      class="thumbnail"
-      style="border: none !important;">
-      <div class="image">
-        <a href="http://johnpham.net">
-          <img 
-            src="{{site.baseurl}}/img/johnpham.jpg"
-            class="img-responsive" 
-            alt="John Pham"
-            style="width: 100% !important;">
-        </a>
-      </div>
-      <div class="caption">
-        <h3>John Pham</h3>
-        <p>Section 13</p>
-        <p><a href="{{site.baseurl}}/docs/CS12W18_Syllabus.pdf">Syllabus</a></p>
-        <ul>
-          <li><strong>Discussion:</strong> Mondays, 3PM - 4PM, Chung 127</li>
-          <li><strong>Lab:</strong>  Wednesdays, 3PM - 5PM, Chung 127</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-  <!-- End of SI Leader -->
-  <!-- Start of SI Leader -->
-  <div class="col-lg-4 col-sm-6">
-    <div
-      class="thumbnail"
-      style="border: none !important;">
-      <div class="image">
-        <a href="https://www.linkedin.com/in/abe-hu-4a0b86102/">
-          <img 
-            src="{{site.baseurl}}/img/abuhu.png"
-            class="img-responsive" 
-            alt="Abe Hu"
-            style="width: 100% !important;">
-        </a>
-      </div>
-      <div class="caption">
-        <h3>Abe Hu</h3>
-        <p>Open Session</p>
-        <ul>
-          <li><strong>Discussion 1:</strong> Mondays, 3Pm - 4PM, Surge 158</li>
-          <li><strong>Discussion 2:</strong>  Fridays, 3PM - 4PM, Surge 158</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-  <!-- End of SI Leader -->
-</div>
+Guidelines:
+-----------
+ * **Be respectful** – Come to SI with the mentality to learn. Don’t interrupt or distract other students. This includes silencing your cell phones and not using them during sessions.
+ * **Participate** - You won’t get very much out of SI if you don’t.
+ * **Sign in** - There will usually be a working computer for you to sign into when you arrive if you do not have your laptop. Please use it to check in (even if you’re not on time) .
+* **Bring your laptop** - Don’t forget to bring your laptop to SI sessions as we will be doing numerous coding activities.

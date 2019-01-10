@@ -1,6 +1,6 @@
 ---
 title: Week 3 Discussion
-permalink: /docs/discussion3/
+permalink: /docs/week3/
 ---
 
 ###### Written by John Pham
@@ -11,7 +11,7 @@ This week we'll be covering creating our own custom classes with structs and cla
 
 ## Structs
 
-**Structs** allow us to create a new data type that grousp together relevant data. If we wanted to keep track of a student say their name, age, and gender, normally we would have to create 3 separate variables to store that information.
+**Structs** allow us to create a new data type that groups together relevant data. If we wanted to keep track of a student say their name, age, and gender, normally we would have to create 3 separate variables to store that information.
 
 ```cpp
 string name = "";

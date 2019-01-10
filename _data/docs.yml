@@ -1,23 +1,8 @@
-- title: Week 1 
+- title: Introduction
   docs:
   - home
-  - discussion1
-  - lab1
 
-- title: Week 2
+- title: Week 1
   docs:
-  - discussion2
-  - lab2
-
-- title: Week 3
-  docs:
-  - discussion3
-  - lab3
-
-- title: Week 4
-  docs:
-  - discussion4
-
-- title: Week 5
-  docs:
-  - discussion5
+  - week1_dis
+  - week1_lab
