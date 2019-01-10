@@ -1,6 +1,6 @@
 ---
 title: Week 7 Discussion
-permalink: /docs/week7/
+permalink: /docs/dis7/
 ---
 
 ###### Written by Josh Beto
