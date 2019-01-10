@@ -1,6 +1,6 @@
 ---
-title: Week 1 Discussion
-permalink: /docs/week1/
+title: Lab
+permalink: /docs/week1_lab
 ---
 
 ###### Written by Josh Beto

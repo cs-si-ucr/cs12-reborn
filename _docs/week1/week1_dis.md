@@ -1,6 +1,6 @@
 ---
-title: Week 1 Discussion
-permalink: /docs/week1/
+title: Discussion
+permalink: /docs/week1_dis
 ---
 
 ###### Written by John Pham
