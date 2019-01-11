@@ -25,4 +25,10 @@ Write a program that tests whether a `string` or `int` is a palindrome
 <br>
 **Implement** the following functions:
 * `bool isPalindrome(const string &s)` - returns true if `string` is a palindrome i.e. racecar
-* `bool isPalindrome(int n)` - returns true if `int` is a palindrome i.e. 12321
+* **Bonus:** `bool isPalindrome(int n)` - returns true if `int` is a palindrome i.e. 12321
+
+## Program 3
+Write a program that takes in two strings from the user and outputs whether they are anagrams i.e. cat and act are anagrams
+<br>
+**Implement** the following function:
+* `bool isAnagram(const string &a, const string &s)` - returns true if the two strings are anagrams of each other, have the same **exact** letters
