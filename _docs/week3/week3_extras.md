@@ -1,9 +1,9 @@
 ---
-title: Discussion
-permalink: /docs/week3_dis/
+title: Extras
+permalink: /docs/week3_extras/
 ---
 
-###### Written by John Pham
+###### Written by Josh Beto
 
 # Lesson Plan
 

@@ -12,10 +12,11 @@
   - week2_dis
   - week2_lab
 
-# - title: Week 3
-#   docs:
-#   - week3_dis
-#   - week3_lab
+- title: Week 3
+  docs:
+  # - week3_extras
+  - week3_dis
+  - week3_lab
 
 # - title: Week 4
 #   docs:
