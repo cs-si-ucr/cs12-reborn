@@ -1,6 +1,6 @@
 ---
-title: Week 3 Lab
-permalink: /docs/lab3/
+title: Week 4 Lab
+permalink: /docs/week4_lab/
 ---
 
 ###### Written by John Pham
