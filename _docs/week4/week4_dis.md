@@ -154,3 +154,83 @@ g++ -c main.cpp
 # link all object files together:
 g++ *.o
 ```
+
+## Warm-Up
+
+In the following source code files, spot the error(s):
+* The comment at the top indicates the file name
+
+### Exercise 1
+```cpp
+// main.cpp
+#include <iostream>
+#include "Rectangle.cpp"
+#include <algorithm>
+#include <vector>
+#include <fstream>
+
+using namespace std;
+
+int main() {
+  Rectangle r(3, 4, 10, 10); // Square of size 10 x 10, lower left is (3, 4)
+  cout << r.getArea() << endl;
+  return 0;
+}
+```
+
+### Exercise 2
+```cpp
+// rectangle.h
+class Rectangle {
+  private:
+    int x, y;
+    int width, length;
+
+  public:
+    Rectangle(int, int, int, int);
+    int getArea();
+    int getLength();
+    int getWidth();
+    int setLength(int l);
+    int setWidth(int w);
+};
+```
+
+### Exercise 3
+```cpp
+// rectangle.cpp
+#include <iostream>
+using namespace std;
+
+Rectangle::Rectangle(int x, int y, int width, int length) : x(x), y(y), width(width), length(length) {};
+
+int Rectangle::getArea() { 
+  return width * height;
+}
+
+int Rectangle::getLength() {
+  return length;
+}
+
+int Rectangle::getWidth() {
+  return width;
+}
+
+void operator<<(const Rectangle &rhs) const {
+  cout << "Lower Left: " << x << ", " << y << endl;
+  cout << "Width: " << width << endl;
+  cout << "Lenth: " << length << endl;
+}
+
+int Rectangle::setWidth(int w) {
+  this->width = w;
+  return w;;
+}
+
+int Rectangle::setLength(int l) {
+  this->length = l;
+  return w;
+}
+```
+
+* For this exercise, look at Exercise 2 for the header class
