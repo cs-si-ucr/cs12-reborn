@@ -155,6 +155,8 @@ g++ -c main.cpp
 g++ *.o
 ```
 
+###### Written by Josh Beto
+
 ## Warm-Up
 
 In the following source code files, spot the error(s):
@@ -224,7 +226,7 @@ void operator<<(const Rectangle &rhs) const {
 
 int Rectangle::setWidth(int w) {
   this->width = w;
-  return w;;
+  return w;
 }
 
 int Rectangle::setLength(int l) {

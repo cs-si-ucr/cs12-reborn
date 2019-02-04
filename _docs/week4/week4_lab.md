@@ -61,19 +61,19 @@ Your inventory was exported to a file called "car-inventory.txt"
 
 # Program 3
 
-Create a program with the following classes and attribrutes:
+Create a program with the following classes and attributes:
 
 1. Food
 	* name of food
 	* calories
-	* protien
+	* protein
 	* carbs
 
 2. Meal
 	* vector of food
 	* name of meal
 	* total calories
-	* total protien
+	* total protein
 	* total carbs
 
 Each class should have its own `.cpp` and header files.
