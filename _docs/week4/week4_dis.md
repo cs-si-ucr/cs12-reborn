@@ -122,8 +122,8 @@ View the examples below:
 
 ```c++
 // Class.h
-#ifndef __CLASS_H__
-#define __CLASS_H__
+#ifndef CLASS_H
+#define CLASS_H
 
 /* Class declaration here */
 
