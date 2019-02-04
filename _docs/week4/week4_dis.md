@@ -122,8 +122,8 @@ View the examples below:
 
 ```c++
 // Class.h
-#ifndef __CLASS_H__
-#define __CLASS_H__
+#ifndef CLASS_H
+#define CLASS_H
 
 /* Class declaration here */
 
@@ -224,7 +224,7 @@ void operator<<(const Rectangle &rhs) const {
 
 int Rectangle::setWidth(int w) {
   this->width = w;
-  return w;;
+  return w;
 }
 
 int Rectangle::setLength(int l) {

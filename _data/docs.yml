@@ -14,7 +14,6 @@
 
 - title: Week 3
   docs:
-  # - week3_extras
   - week3_dis
   - week3_lab
 
@@ -23,10 +22,10 @@
   - week4_dis
   - week4_lab
 
-# - title: Week 5
-#   docs:
-#   - week5_dis
-#   - week5_lab
+- title: Week 5
+  docs:
+  - week5_dis
+  # - week5_lab
 
 # - title: Midterm
 #   docs:

@@ -66,14 +66,14 @@ Create a program with the following classes and attribrutes:
 1. Food
 	* name of food
 	* calories
-	* protien
+	* protein
 	* carbs
 
 2. Meal
 	* vector of food
 	* name of meal
 	* total calories
-	* total protien
+	* total protein
 	* total carbs
 
 Each class should have its own `.cpp` and header files.
@@ -87,7 +87,7 @@ The meal class needs to overload the `+` operator and will be used like so:
   Food sandwich;
   Food apple;
 
-  lunch = lunch + sandwhich;
+  lunch = lunch + sandwich;
 ```
 
 Where here the food item `sandwich` was added to the `lunch`'s food vector.
@@ -98,7 +98,7 @@ Where here the food item `sandwich` was added to the `lunch`'s food vector.
   Food sandwich;
   Food apple;
 
-  lunch + sandwhich;
+  lunch + sandwich;
 ```
 
 # Program 4
