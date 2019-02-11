@@ -31,10 +31,10 @@
 #   docs:
 #     - midterm
   
-# - title: Week 6
-#   docs:
-#   - week6_dis
-#   - week6_lab
+- title: Week 6
+  docs:
+  - week6_dis
+  - week6_lab
 
 # - title: Week 7
 #   docs:
