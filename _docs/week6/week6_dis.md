@@ -155,3 +155,65 @@ delete b;
 2. If you make a pointer, `int* p = &a`, what is the value of `p` (Not dereferenced yet)?
 3. What data type is `this`?
 4. *Challenge:* How does pointer arithmetic work (++, --) ?
+
+
+## Stack vs. Heap
+
+Until now, you never had to worry about memory management since all your memory was allocated to the *stack*. 
+```cpp
+int main() {
+    int x = 5; // 'x' is allocated on the stack
+}
+```
+The heap comes into play when *you*, the programmer allocate the memory yourself. This also means that you are responsible for cleaning up that data, or deleting it.
+To delete this data, you simply call delete on the pointer. This **DOES NOT** delete the pointer itself, but the memory *referenced* by the pointer.
+```cpp
+int main() {
+    int* p = new int[6]; // allocates an array of size 6 on the heap, you have to delete this later on
+}
+```
+<br>
+**Warm-Up:** Identify whether the memory goes on the stack or heap
+
+```cpp
+Rectangle* r = new Rectangle(4, 3);
+```
+
+```cpp
+ExampleObject* g(4, 3);
+```
+
+```cpp
+    int x = 6;
+    int* g = &x
+```
+
+
+## Pointers as Arrays
+
+Under the hood, arrays are implemented as pointers! The `[]` operator does pointer arithmetic followed by a dereference.
+
+```cpp
+int main() {
+    int a[5]; // array with 5 values
+    a[3] = 2; // sets the value at index 3 to 2
+    *(a + 3) = 2; // does the same thing as the line above!
+}
+```
+Your *array* object is really just a pointer that points to the *first element* of the array. When you do the `[]` operator,
+you really just add memory address offsets until you get to the element you want. From there, you call the `*`, dereference operator
+to actually grab the value at that index. Likewise, you can use the `[]` operator on a pointer returned from new!
+
+```cpp
+int main() {
+    int* a = new int[5];
+    a[3] = 2; // adds 3 memory addresses to the pointer, then dereferences it
+    *(a+3) = 2; // see above
+}
+```
+
+## Common Pitfalls
+
+* Comparing (2 * cap) > (cap - sz), think about the logistics of what you are actually comparing. The first element represents a total capacity while the second ...
+* using `delete` does **NOT DELETE THE POINTER**, it delete's the *data* the pointer is pointing to!
+* use *logical deletion*, you don't have to actually delete the element, you just need to make it inaccessible

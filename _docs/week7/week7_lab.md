@@ -7,7 +7,7 @@ permalink: /docs/week7_dis/
 
 # Lesson Plan
 
-This week we'll be covering linked list
+This week we'll be covering linked list and an introduction to recursion
 
 **Note:** If you can't compile with `nullptr` in c++, that's because you're forgetting the `-std=c++11` flag when you compile i.e. `g++ main.cpp -std=c++11`.
 
@@ -21,48 +21,38 @@ struct IntNode {
     IntNode* next; // a pointer to the next node
 }
 ```
-Typically, linked list have two node pointers, `head` and `tail`, which point to the first and last node in the list respectively. To iterate through a linked list you can do a simple `for` loop insead of a `while` loop.
+Typically, linked list have two node pointers, `head` and `tail`, which point to the first and last node in the list repsectively. To iterate through a linked list you can do a simple `for` loop insead of a `while` loop.
 
 ```cpp
 // for loop option
-for (IntNode* curr = head; curr != nullptr; curr = curr->next) {
-    // insert code here
-}
+for (IntNode* curr = head; curr != nullptr; curr = curr->next) {}
 
 // while loop option
 IntNode* curr = head;
 while (curr != nullptr) {
-    // insert code here
     curr = curr->next;
 }
 ```
 
 ## Cases
 There are 3 main cases to worry about in any linked list implementation:
-1. The linked list is *empty*
-2. The linked list has *one* node
-3. The linked list has *more than one* node
+1. `head == nullptr` - The linked list is *empty*
+2. `head == tail` - The linked list has *one* node
+3. `head != tail` - The linked list has *more than one* node
 
-## Class Exercise
+**NOTE:** Keep in mind that the order you should check these cases should be *exactly* as presented in the steps. When the linked list is *empty*, `head == tail` is `true` since they both point to `nullptr`.p Check them in the order of steps provided!
 
-Come up with the conditions that correspond to each of these 3 conditions and the order that they should be checked!
+`Case 1: head == nullptr:` 
+* **Insertion:** You need to set *both* the `head` and `tail` pointer to point to the single node being inserted.
+* **Deletion:** You can't delete from an empty linked list! Throw an error.
 
-## Diagram Practice
+`Case 2: head == tail:` 
+* **Insertion:** You need to set either the `head` or `tail` to the node being inserted depending on if you are *pre-pending* or *appending* the node. Set the node connections as usual.
+* **Deletion:** Set `head` and `tail` to `nullptr`. Don't forget to delete the node!
 
-Split up into 3 small groups. Each group shall be assigned one of the 3 main cases and teach the class by drawing a step by step visual diagram of both *inserting* and *deleting* nodes for their case. 
-
-Indicate the following features:
-
-* `head`
-* `tail`
-* other `nodes`
-* `stack` / `heap`
-
-
-## Pitfalls
-* Not calling `delete` on every node. You have to delete all the nodes or else you will have a memory leak!
-* Thinking `delete` deletes the pointer. It **doesn't**. When you use `new`, you allocate memory on the *heap* and receive a pointer that points to that allocated memory. The pointer itself is **not in the heap!**, it is on the *stack*. When you call `delete`, you deallocate the memory that the pointer is *pointing* to!
-* **(From last week)** Mixing up `delete` and `delete []`. The former is used for deallocating single objects while the latter is for deallocating arrays. Make sure you don't mix them up! No calling `delete` multiple times on an array!
+`Case 3: head != tail:` 
+* **Insertion:** Set the node connections as usual with the inserted node's neighbors. Depending on if you are inserting at the `head` or `tail`, set their respective pointers.
+* **Deletion:** Set the node connections as usual. If you delete the `head` or `tail`, be sure to adjust the `head` or `tail` to point to the next or previous element respectively. Don't forget to delete the node!
 
 ## Exercises
 
@@ -84,14 +74,12 @@ void deleteNode(IntNode* toDelete);
 // Deletes the first node found with the same value as the argument given
 void deleteNode(int value);
 
-// Challenge activity! Assume you only have head for this function!
 // Detects if the linked list is circular i.e. the last node points back to the first node
 bool isCircular();
 ```
 
 ## Conceptual Questions
 
-* Peek on next week's material!
 * What's the difference between the following code snippets?
 ```cpp
 void print(IntNode* head) {
