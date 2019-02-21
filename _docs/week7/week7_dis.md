@@ -47,7 +47,6 @@ There are 4 main cases to worry about in any linked list implementation:
 ## Class Exercise
 
 Come up with the conditions that correspond to each of these 4 conditions and the order that they should be checked!
-* Be sure to verify your diagram and explanation on multiple examples: empty, 1 node, more than 1 node etc.
 
 ## Diagram Practice
 
@@ -60,7 +59,7 @@ Indicate the following features:
 * other `nodes`
 * `stack` / `heap`
 
-
+* Be sure to verify your diagram and explanation on multiple examples: empty, 1 node, more than 1 node etc.
 * **NOTE:** Keep in mind the case where there's only a single node!
 
 
