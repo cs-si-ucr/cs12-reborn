@@ -5,6 +5,10 @@ permalink: /docs/week9_dis/
 
 ###### Written by Josh Beto
 
+## Warm-Up
+
+Think about your `file` system that you use in your computer. How would you create a function to output every file within your home directory? Write down your approach as psuedo-code
+
 ## Recursion vs. Iteration
 
 Until now, you have been implementing your looping functions with *iterative* loop structures such as `for` and `while`. 
