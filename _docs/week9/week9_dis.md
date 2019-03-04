@@ -49,6 +49,15 @@ string isPalindrome(const string &s);
 
 // reverses the contents of a vector, v = {1, 2, 3} - after reverse: v = {3, 2, 1}
 void reverseVector(vector<int> &v);
+
+// computes factorial
+int factorial(int n);
+
+// print a linked list backwards
+void printBackwards(Node* curr);
+
+// print a linked list forwards
+void printForwards(Node* curr);
 ```
 
 ### Challenge
