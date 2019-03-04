@@ -38,18 +38,19 @@ while (curr != nullptr) {
 ```
 
 ## Cases
-There are 3 main cases to worry about in any linked list implementation:
+There are 4 main cases to worry about in any linked list implementation:
 1. The linked list is *empty*
-2. The linked list has *one* node
-3. The linked list has *more than one* node
+2. Inserting / Deleting the front of the list
+3. Inserting / Deleting the back of the list
+4. Inserting / Deleting the middle of the list
 
 ## Class Exercise
 
-Come up with the conditions that correspond to each of these 3 conditions and the order that they should be checked!
+Come up with the conditions that correspond to each of these 4 conditions and the order that they should be checked!
 
 ## Diagram Practice
 
-Split up into 3 small groups. Each group shall be assigned one of the 3 main cases and teach the class by drawing a step by step visual diagram of both *inserting* and *deleting* nodes for their case. 
+Split up into 4 small groups. Each group shall be assigned one of the 4 main cases and teach the class by drawing a step by step visual diagram of both *inserting* and *deleting* nodes for their case. 
 
 Indicate the following features:
 
@@ -58,9 +59,12 @@ Indicate the following features:
 * other `nodes`
 * `stack` / `heap`
 
+* Be sure to verify your diagram and explanation on multiple examples: empty, 1 node, more than 1 node etc.
+* **NOTE:** Keep in mind the case where there's only a single node!
+
 
 ## Pitfalls
-* Not calling `delete` on every node. You have to delete all the nodes or else you will have a memory leak!
+* Not calling `delete` on every node. You have to delete all the nodes in the destructor or else you will have a memory leak!
 * Thinking `delete` deletes the pointer. It **doesn't**. When you use `new`, you allocate memory on the *heap* and receive a pointer that points to that allocated memory. The pointer itself is **not in the heap!**, it is on the *stack*. When you call `delete`, you deallocate the memory that the pointer is *pointing* to!
 * **(From last week)** Mixing up `delete` and `delete []`. The former is used for deallocating single objects while the latter is for deallocating arrays. Make sure you don't mix them up! No calling `delete` multiple times on an array!
 
