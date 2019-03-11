@@ -112,3 +112,35 @@ void print(IntNode* head) {
     print(head->next);
 }
 ```
+
+# Monday
+
+## Warm-Up
+Look at the practice section and come up with the function definitions (What the function does, what does it take in, and what does it return)
+
+## Practice
+
+```cpp
+// implement recursive atoi, it converts a string to an int
+// you can assume string is non-empty and always valid
+int recursive_atoi(const string &s);
+
+// reverses a linked list, keep track of the new head and tail
+// hint: think about the node that you should return!
+IntNode* reverse(IntNode* curr);
+
+// find the maximum integer with recursion using divide & conquer
+// v is non-empty
+int max(const vector<int> &v, int i, int j);
+
+// find the number of ways that a number of dice may roll to a target sum
+// i.e. numDice = 2, sum = 12 -> Only 1 way - both dice roll to 6
+// numDice and sum is always >= 0
+int findWays(int numDice, int sum);
+```
+
+## Closing
+Write down topics you would like to cover during our final review. \
+\
+Put each topic in the following categories:
+Clueless, Ok?, A+
