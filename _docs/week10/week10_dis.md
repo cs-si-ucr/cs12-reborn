@@ -167,7 +167,7 @@ void push_second(int value) {
     create a dog class that inherits from animal
     all behaviour is specified by the main
 */
-```cpp
+
 int main() {
     Animal a("Jesse", 3);
     cout << a.getName() << endl; // prints out name
@@ -213,6 +213,6 @@ void merge(vector<int> &v, int start, int mid, int end);
 
 ## Closing
 
-* Present the most important thing you learned today to the class
+* Present the most important thing you learned today to the class!
 
 We'll be continuing where we left off today on Friday! 
