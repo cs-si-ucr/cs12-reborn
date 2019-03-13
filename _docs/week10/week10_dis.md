@@ -215,15 +215,12 @@ int recursive_atoi(const string &s);
 ```
 ```cpp
 /*
-    Implement:
-    returns true if the number is a palindrome. The vector represents each digit of a number.
-    hint: use a recursive helper function!
+    Implement recursive merge sort
 */
-bool isPalindrome(int number);
+void mergeSort(vector<int> &v, int start, int end)
 
-// Converts a number to a vector<int> i.e 1234 becomes [1 2 3 4]
-// Assume this is already implemented for you and you can use it
-vector<int> convertToVector(number);
+// You have access to this function (don't implement it)
+void merge(vector<int> &v, int start, int mid, int end);
 ```
 
 ## Closing
