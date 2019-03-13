@@ -120,35 +120,23 @@ int main() {
 }
 ```
 
-**What happens?**
-```cpp
-int magic(unsigned x) {
-    if (x == 0) {
-        return 0;
-    }
-    m = max(1 + magic(x/2), 1 + magic(x+1))
-    return m;
-}
-
-int main() {
-    cout << magic(5) << endl;
-}
-```
-**What happens?**
+**What gets printed out?**
 ```cpp
     #include <iostream> 
     using namespace std; 
 
     int main() 
     { 
-        int i = 20; 
-        int* ptr = &i; 
+        int i[] = {1, 2, 3};
+        int* ptr = i + 1; 
         (*ptr)++; 
-        int j = 15; 
-        ptr = &j; 
-        cout << i << *ptr << endl;
+        ptr++;
+        cout << *ptr << endl;
+        for (int a : i) {
+            cout << a << endl;
+        }
         return 0; 
-    } 
+    }
 ```
 
 ## Coding
