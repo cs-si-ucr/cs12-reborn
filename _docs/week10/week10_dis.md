@@ -156,16 +156,14 @@ Node* reverse(Node* curr);
     you are given head and tail and MUST set them accordingly
     if you cannot insert as the second node, then return
 */
-void push_second(int value) {
-
-}
+void push_second(int value);
 ```
 **Inheritance**
 ```cpp
 /*
-    create an animal base class (header and cpp file)
-    create a dog class that inherits from animal
-    all behaviour is specified by the main
+    Create an animal base class (header and cpp file)
+    Create a dog class (header and cpp) that inherits from animal
+    All behaviour is specified by the main
 */
 
 int main() {
@@ -205,7 +203,7 @@ int recursive_atoi(const string &s);
 /*
     Implement recursive merge sort
 */
-void mergeSort(vector<int> &v, int start, int end)
+void mergeSort(vector<int> &v, int start, int end);
 
 // You have access to this function (don't implement it)
 void merge(vector<int> &v, int start, int mid, int end);
