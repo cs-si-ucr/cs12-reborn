@@ -214,3 +214,5 @@ void merge(vector<int> &v, int start, int mid, int end);
 * Present the most important thing you learned today to the class!
 
 We'll be continuing where we left off today on Friday! 
+
+https://docs.google.com/document/d/1Ijc3BNc4gpxumOQWfG90Mx7aV0NoQ2YffFuM76lzBsI/edit?usp=sharing
