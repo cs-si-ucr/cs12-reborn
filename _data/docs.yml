@@ -54,7 +54,7 @@
 - title: Week 10
   docs:
   - week10_dis
-#   - week10_lab
+  - big_o
 
 # - title: Final
 #   docs:
