@@ -28,3 +28,5 @@ This week will be review for the upcoming midterm. We will be covering the follo
 
 You can refer to the previous weeks reading for review. For discussion, we will be doing sample midterms.
 https://docs.google.com/document/d/1hLWf50FiETA0QVvE94FZM7iF_1Tq2T9YynrE5__CCcE/edit?usp=sharing
+Study Guide
+https://docs.google.com/document/d/1GxN1g1nwZ4a8TfwvSKJIkvHdFrpZDPIMyxo5kGTQpes/edit?usp=sharing
